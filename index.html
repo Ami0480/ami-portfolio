@@ -33,13 +33,74 @@
     <title>Ami Portfolio</title>
   </head>
   <body>
-    <p>Hello I'm</p>
-    <h1>Ami Fukuyama</h1>
-    <h2>Junior Front-end developer</h2>
-    <i class="fa-brands fa-figma"></i>
-    <i class="fa-vscode"></i>
-    <i class="fa-brands fa-react"></i>
-    <i class="fa-brands fa-bootstrap"></i>
-    <i class="fa-brands fa-github"></i>
+    <div class="line-vertical-left"></div>
+    <div class="line-vertical-right"></div>
+    <div class="container">
+      <div class="nav">
+        <span class="hamburger" onClick="toggleMenu()">&#9776;</span>
+      </div>
+
+      <nav class="d-flex justify-content-end nav-links" id="navLinks">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Project</a>
+        <a href="#">Contact</a>
+      </nav>
+
+      <div class="line-horizontal"></div>
+      <main>
+        <div class="row text-md-start align-items-center">
+          <div class="col-md-6">
+            <p>Hello I'm</p>
+            <h1>Ami Fukuyama</h1>
+            <div
+              class="border job-title position-relative border-1 border-dark"
+            >
+              <h2
+                class="position-relative d-flex justify-content-center align-items-center p-2 p-md-4"
+              >
+                Junior Front-end Developer
+              </h2>
+
+              <span
+                class="job-title-square job-title-square-top-left position-absolute top-0 start-0"
+              ></span>
+              <span
+                class="job-title-square job-title-square-top-right position-absolute top-0 end-0"
+              ></span>
+              <span
+                class="job-title-square job-title-square-bottom-left position-absolute bottom-0 start-0"
+              ></span>
+              <span
+                class="job-title-square job-title-square-bottom-right position-absolute bottom-0 end-0"
+              ></span>
+            </div>
+            <div class="icons">
+              <i class="fa-brands fa-figma"></i>
+              <i class="fa-vscode"></i>
+              <i class="fa-brands fa-react"></i>
+              <i class="fa-brands fa-bootstrap"></i>
+              <i class="fa-brands fa-github"></i>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <img
+              src="images/font-circle.svg"
+              class="circle"
+              alt="font-circle"
+            />
+          </div>
+          <div class="col-md-4">
+            <img
+              src="images/portfolio-photo.jpg"
+              class="oval-image img-fluid"
+              alt="responsive image"
+            />
+          </div>
+        </div>
+      </main>
+      <div class="line-horizontal"></div>
+    </div>
+    <script src="src/index.js"></script>
   </body>
 </html>
