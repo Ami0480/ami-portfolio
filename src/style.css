@@ -16,6 +16,16 @@ h2 {
   font-weight: lighter;
   margin: 0 0 30px 0;
 }
+h3 {
+  font-size: 40px;
+  font-weight: 300;
+  margin: 0 0 20px 0;
+}
+h4 {
+  font-size: 20px;
+  font-weight: 300;
+  margin: 10px 0 5px 0;
+}
 ul {
   padding: 0;
 }
@@ -33,22 +43,30 @@ li {
 .about {
   font-weight: 700;
 }
+.my-project {
+  font-weight: 700;
+}
 .profile-details {
   display: flex;
   max-width: 600px;
   gap: 64px;
 }
-h3 {
-  font-size: 40px;
-  font-weight: 300;
-  margin: 0 0 20px 0;
-}
+
 .profile-photo {
   width: 250px;
+}
+.project-photo {
+  width: 600px;
 }
 p {
   font-size: 16px;
   font-weight: 100;
   margin: 68px 0 0 0;
+  line-height: 1.5;
+}
+.project-explanation {
+  font-size: 16px;
+  font-weight: 100;
+  margin: 0;
   line-height: 1.5;
 }
