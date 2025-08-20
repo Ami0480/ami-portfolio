@@ -1,52 +1,134 @@
 body {
   background-color: #f0f0f0;
+  font-family: "Figtree", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 20px 40px;
+  margin: 0;
+}
+
+a {
+  color: black;
+}
+
+img {
+  max-width: 100%;
 }
 
 .container {
-  font-family: "Figtree", sans-serif;
-  margin: 50px;
+  width: 100%;
+}
+
+.sidebar {
+  margin: 60px 0;
 }
 
 .name {
   font-size: 58px;
   font-weight: 400;
   text-decoration: none;
-  line-height: 2;
+  line-height: 1;
   color: black;
-  margin-right: 10px;
-}
-h2 {
-  font-size: 20px;
-  font-weight: lighter;
-  margin: -20px 0 20px 0;
 }
 
-.contents {
+.job-title {
+  margin: 12px 0 24px;
+}
+
+.nav {
   display: flex;
   flex-direction: row;
-}
-.about {
-  font-size: 14px;
-  font-weight: 400;
-  text-decoration: none;
-  line-height: 2;
-  color: black;
-  margin-right: 10px;
-}
-.work {
-  font-size: 14px;
-  font-weight: 400;
-  text-decoration: none;
-  line-height: 2;
-  color: black;
-  margin-right: 10px;
+  gap: 20px;
 }
 
-.contact {
-  font-size: 14px;
+.nav a {
+  font-size: 16px;
   font-weight: 400;
   text-decoration: none;
-  line-height: 2;
   color: black;
-  margin-right: 10px;
+}
+
+body.about .nav a.about,
+body.work .nav a.work,
+body.contact .nav a.contact {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 25px;
+  font-weight: normal;
+  margin: 0 0 30px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.content p,
+.content h2,
+.content h3 {
+  margin: 20px 0 0;
+  padding: 0;
+}
+
+.content p.icons {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.content p.icons i {
+  font-size: 20px;
+  color: black;
+}
+
+.project {
+  margin-bottom: 80px;
+}
+
+@media (min-width: 1025px) {
+  body {
+    padding: 100px;
+    margin: 0;
+  }
+  .sidebar {
+    margin: 0;
+  }
+
+  .name {
+    font-size: 58px;
+  }
+  .job-title {
+    font-size: 24px;
+    font-weight: lighter;
+  }
+  .nav a {
+    font-size: 18px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .content {
+    width: 50%;
+  }
+
+  .profile-element {
+    display: flex;
+  }
+
+  h1 {
+    margin-top: 25px;
+  }
+  .profile-pic {
+    margin-right: 20px;
+  }
+  .content p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: lighter;
+  }
 }
