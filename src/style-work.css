@@ -118,3 +118,45 @@ a {
     width: 300px;
   }
 }
+@media (max-width: 800px) {
+  .container {
+    margin: 50px;
+  }
+
+  .project-details {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    gap: 20px;
+  }
+
+  h3 {
+    font-size: 32px;
+    margin: 20px 0 10px;
+  }
+
+  .project-explanation {
+    margin: 0;
+    width: 300px;
+  }
+}
+@media (max-width: 1000px) {
+  .container {
+    margin: 50px;
+  }
+
+  .project-details {
+    display: flex;
+    flex-direction: column;
+  }
+
+  h3 {
+    font-size: 32px;
+    margin: 20px 0 10px;
+  }
+
+  .project-explanation {
+    margin: 0;
+    width: 300px;
+  }
+}
