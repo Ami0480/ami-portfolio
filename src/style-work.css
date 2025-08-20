@@ -1,0 +1,72 @@
+body {
+  background-color: #f0f0f0;
+}
+
+.container {
+  font-family: "Figtree", sans-serif;
+  margin: 185px;
+}
+.main-element {
+  position: fixed;
+}
+.name {
+  font-size: 96px;
+  font-weight: 400;
+  margin: 0;
+}
+h2 {
+  font-size: 24px;
+  font-weight: lighter;
+  margin: -30px 0 30px 0;
+}
+h3 {
+  font-size: 40px;
+  font-weight: 300;
+  margin: 0 0 20px 0;
+}
+h4 {
+  font-size: 20px;
+  font-weight: 300;
+  margin: 10px 0 5px 0;
+}
+
+.contents {
+  display: flex;
+  flex-direction: column;
+}
+a {
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  line-height: 2;
+  color: black;
+}
+
+.work {
+  font-weight: 700;
+}
+
+.project-element {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-details {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  width: 600px;
+  margin-top: 90px;
+}
+
+.project-photo {
+  width: 500px;
+}
+
+.project-explanation {
+  font-size: 16px;
+  font-weight: 100;
+  margin: 0 0 20px 0;
+  line-height: 1.5;
+  width: 500px;
+}

@@ -19,6 +19,11 @@ h2 {
   font-weight: lighter;
   margin: -30px 0 30px 0;
 }
+h3 {
+  font-size: 40px;
+  font-weight: 300;
+  margin: 0 0 20px 0;
+}
 
 .contents {
   display: flex;
@@ -30,4 +35,29 @@ a {
   text-decoration: none;
   line-height: 2;
   color: black;
+}
+.about-element {
+  display: flex;
+  justify-content: space-between;
+  gap: 64px;
+}
+.about {
+  font-weight: 700;
+}
+
+.profile-details {
+  display: flex;
+  margin-left: auto;
+  max-width: 600px;
+  gap: 64px;
+  margin-top: 90px;
+}
+.profile-photo {
+  width: 250px;
+}
+p {
+  font-size: 16px;
+  font-weight: 100;
+  margin: 68px 0 0 0;
+  line-height: 1.5;
 }
