@@ -61,3 +61,41 @@ p {
   margin: 68px 0 0 0;
   line-height: 1.5;
 }
+
+@media (max-width: 600px) {
+  .container {
+    margin: 50px;
+  }
+
+  .main-element {
+    position: absolute;
+  }
+  .name {
+    font-size: 58px;
+  }
+  h2 {
+    font-size: 20px;
+    font-weight: lighter;
+    margin: -20px 0 10px 0;
+  }
+  h3 {
+    font-size: 30px;
+    margin: 0 0 10px 0;
+  }
+
+  a {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .profile-details {
+    display: block;
+    margin-top: 230px;
+  }
+
+  .profile-photo {
+    width: 100%;
+    max-width: 300px;
+    display: block;
+  }
+}
