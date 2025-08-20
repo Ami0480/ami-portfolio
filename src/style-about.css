@@ -4,153 +4,64 @@ body {
 
 .container {
   font-family: "Figtree", sans-serif;
-  margin: 185px;
-}
-.main-element {
-  position: fixed;
-}
-.name {
-  font-size: 96px;
-  font-weight: 400;
-  margin: 0;
-}
-h2 {
-  font-size: 24px;
-  font-weight: lighter;
-  margin: -30px 0 30px 0;
-}
-h3 {
-  font-size: 40px;
-  font-weight: 300;
-  margin: 0 0 20px 0;
+  margin: 20px 40px;
 }
 
-.contents {
-  display: flex;
-  flex-direction: column;
-}
-a {
-  font-size: 18px;
-  font-weight: 500;
+.name {
+  font-size: 58px;
+  font-weight: 400;
   text-decoration: none;
   line-height: 2;
   color: black;
 }
-.about-element {
-  display: flex;
-  justify-content: space-between;
-  gap: 64px;
+h2 {
+  font-size: 20px;
+  font-weight: lighter;
+  margin: -20px 0 10px 0;
 }
-.about {
-  font-weight: 700;
+h3 {
+  font-size: 25px;
+  font-weight: normal;
+  margin: 30px 0 10px 0;
 }
 
-.profile-details {
+.contents {
   display: flex;
-  margin-left: auto;
-  max-width: 600px;
-  gap: 64px;
-  margin-top: 90px;
+  flex-direction: row;
 }
+
+.about {
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  line-height: 2;
+  color: black;
+  margin-right: 10px;
+}
+.work {
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  line-height: 2;
+  color: black;
+  margin-right: 10px;
+}
+
+.contact {
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  line-height: 2;
+  color: black;
+  margin-right: 10px;
+}
+
 .profile-photo {
   width: 250px;
 }
 p {
   font-size: 16px;
   font-weight: 100;
-  margin: 68px 0 0 0;
+
   line-height: 1.5;
-}
-
-@media (max-width: 600px) {
-  .container {
-    margin: 50px;
-  }
-
-  .main-element {
-    position: absolute;
-  }
-  .name {
-    font-size: 58px;
-  }
-  h2 {
-    font-size: 20px;
-    font-weight: lighter;
-    margin: -20px 0 10px 0;
-  }
-  h3 {
-    font-size: 30px;
-    margin: 0 0 10px 0;
-  }
-
-  a {
-    font-size: 14px;
-    font-weight: 400;
-  }
-
-  .profile-details {
-    display: block;
-    margin-top: 230px;
-  }
-
-  .profile-photo {
-    width: 100%;
-    max-width: 300px;
-    display: block;
-  }
-}
-
-@media (min-width: 800px) {
-  .container {
-    margin: 50px;
-  }
-
-  .main-element {
-    position: static;
-    margin-bottom: 20px;
-  }
-
-  .profile-details {
-    display: flex;
-    flex-direction: column;
-    max-width: 300px;
-
-    gap: 20px;
-  }
-
-  .profile-photo {
-    width: 100%;
-    max-width: 300px;
-    display: block;
-    margin: 0 auto;
-  }
-
-  h3 {
-    font-size: 32px;
-    margin: 20px 0 10px;
-  }
-
-  p {
-    margin: 0;
-  }
-}
-@media (min-width: 1000px) {
-  .profile-details {
-    display: block;
-    max-width: 300px;
-  }
-
-  .profile-photo {
-    width: 100%;
-    max-width: 250px;
-  }
-
-  h3 {
-    font-size: 32px;
-    margin: 20px 0 10px;
-  }
-
-  p {
-    margin: 0;
-  }
 }
