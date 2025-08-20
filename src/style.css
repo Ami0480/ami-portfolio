@@ -110,6 +110,8 @@ h2 {
   .container {
     display: flex;
     justify-content: space-between;
+    max-width: 1800px;
+    margin: 0 auto;
   }
 
   .content {
@@ -124,11 +126,13 @@ h2 {
     margin-top: 25px;
   }
   .profile-pic {
-    margin-right: 20px;
+    margin-right: 40px;
   }
   .content p {
-    margin: 0;
     font-size: 16px;
     font-weight: lighter;
+  }
+  .project {
+    margin-bottom: 80px;
   }
 }
