@@ -4,65 +4,71 @@ body {
 
 .container {
   font-family: "Figtree", sans-serif;
-  margin: 185px;
+  margin: 20px 40px;
 }
-.main-element {
-  position: fixed;
-}
+
 .name {
-  font-size: 96px;
+  font-size: 58px;
   font-weight: 400;
-  margin: 0;
+  text-decoration: none;
+  line-height: 2;
+  color: black;
 }
 h2 {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: lighter;
-  margin: -30px 0 30px 0;
+  margin: -20px 0 10px 0;
 }
 h3 {
-  font-size: 40px;
-  font-weight: 300;
-  margin: 0 0 20px 0;
+  font-size: 25px;
+  font-weight: normal;
+  margin: 30px 0 10px 0;
+}
+
+.contents {
+  display: flex;
+  flex-direction: row;
+}
+
+.about {
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  line-height: 2;
+  color: black;
+  margin-right: 10px;
+}
+.work {
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  line-height: 2;
+  color: black;
+  margin-right: 10px;
+}
+
+.contact {
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  line-height: 2;
+  color: black;
+  margin-right: 10px;
 }
 
 h5 {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 300;
   letter-spacing: 1px;
   margin: 10px 0 0 0;
 }
 
-.contents {
-  display: flex;
-  flex-direction: column;
-}
-a {
-  font-size: 18px;
-  font-weight: 500;
-  text-decoration: none;
-  line-height: 2;
-  color: black;
-}
-
-.contact {
-  font-weight: 700;
-}
-
-.contact-element {
-  display: flex;
-  justify-content: space-between;
-}
-
-.contact-details {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  width: 600px;
-  margin-top: 90px;
-}
 .email {
-  font-weight: 200;
+  font-weight: 300;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: black;
 }
 
 .icons {
@@ -75,42 +81,4 @@ i {
   font-size: 25px;
   color: black;
   margin-right: 10px;
-}
-
-@media (max-width: 600px) {
-  .container {
-    margin: 50px;
-  }
-
-  .main-element {
-    position: absolute;
-  }
-  .name {
-    font-size: 58px;
-  }
-  h2 {
-    font-size: 20px;
-    font-weight: lighter;
-    margin: -20px 0 10px 0;
-  }
-
-  .contact-element {
-    display: block;
-  }
-
-  .contact-details {
-    margin-top: 30px;
-  }
-  h3 {
-    font-size: 30px;
-    margin: 0 0 10px 0;
-  }
-  a {
-    font-size: 14px;
-    font-weight: 400;
-  }
-  .email {
-    font-weight: 300;
-    font-size: 18px;
-  }
 }
