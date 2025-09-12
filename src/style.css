@@ -32,7 +32,7 @@ img {
 }
 
 .job-title {
-  margin: 12px 0 24px;
+  margin: 12px 0;
 }
 
 .nav {
@@ -42,10 +42,22 @@ img {
 }
 
 .nav a {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   text-decoration: none;
   color: black;
+}
+span {
+  font-size: 16px;
+  font-weight: 300;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  margin-right: 5px;
+}
+
+span:hover {
+  text-decoration: none;
+  opacity: 0.7;
 }
 
 body.about .nav a.about,
